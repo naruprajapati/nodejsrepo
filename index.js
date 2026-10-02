@@ -3,7 +3,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-  res.send('HI welcome Naruto for nodejs application');
+  res.send('HI all welcome Naruto for nodejs application');
 });
 
 app.get('/health', (req, res) => {
